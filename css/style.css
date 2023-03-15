@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    color: #434455;
 }
 
 .link {
@@ -74,19 +75,21 @@ body {
 }
 
 .hero-btn {
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     align-items: center;
     letter-spacing: 0.04em;
+    cursor: pointer;
+    background: #4D5AE5;
+    color: #FFFFFF;
 }
 
 /* FEATURES */
 .features {}
 
 .features-list {}
-
-.list {}
 
 .features-item {}
 
@@ -99,6 +102,143 @@ body {
 }
 
 .features-caption {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* ABOUT */
+
+.about {}
+
+.about-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.about-list {}
+
+.about-item {}
+
+/* TEAM */
+
+.team {
+    background-color: #F4F4FD;
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+.team-list {}
+
+.team-item {
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.team-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.team-description {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;  
+    color: #434455;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #2E2F42;
+}
+
+.footer-logo {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;  
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;    
+}
+
+.footer-logo-first {
+    color: #4D5AE5;
+}
+
+.footer-logo-last {
+    color: #F4F4FD;
+}
+
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#F4F4FD;
+}
+
+/* PORTFOLIO */
+
+.portfolio {}
+
+.portfolio-nav {
+
+}
+
+.portfolio-nav-item {
+
+}
+
+.portfolio-nav-item-btn {
+    width: 116px;
+    height: 48px;
+    background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    color: #4D5AE5;
+}
+
+.portfolio-nav-item-btn:hover,
+.portfolio-nav-item-btn:focus {
+    background: #404BBF;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.portfolio-list {}
+
+.portfolio-item {
+    background: #FFFFFF;
+    border: 1px solid #E7E9FC;
+}
+
+.portfolio-caption {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;    
+    color: #2E2F42;
+}
+
+.portfolio-desc {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
