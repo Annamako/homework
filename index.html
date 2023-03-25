@@ -39,12 +39,12 @@
           </ul>
         </nav>
         <ul class="header-list list">
-          <li>
+          <li class="header-item">
             <a href="mailto:info@devstudio.com" class="header-mail link"
               >info@devstudio.com</a
             >
           </li>
-          <li>
+          <li class="header-item">
             <a href="tel:+110001111111" class="header-tel link"
               >+11 (000) 111-11-11</a
             >
@@ -56,7 +56,7 @@
       <section class="hero">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button type="button" class="hero-btn">Order Service</button>
+          <button type="button" class="hero-btn" data-modal-open>Order Service</button>
         </div>
       </section>
       <section class="features">
@@ -381,5 +381,13 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="modal-btn"><svg class="modal-close" data-modal-close width="8px" height="8px">
+          <use href="./image/symbol-defs.svg#close"></use>
+        </svg></button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
